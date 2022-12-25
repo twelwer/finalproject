@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    height: 90px;
+    width: 1900px;
+    background-color: #242424;
+    position: fixed;
+    z-index: 200;
+}
+.header_grid{
+    display: grid;
+    grid-template-columns: repeat(5, 225px);
+    grid-template-rows: 90px;
+    align-items: center;
+    margin-left: 500px;
+}
+.header_grid_elem{
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+    transition: 200ms;
+}
+.header_grid_elem:hover{
+    font-size: 22px;
+    text-shadow: 5px 5px black;
+}
+.main-page{
+    display: grid;
+    grid-template-rows: 990px 700px 800px 1000px 990px 90px;
+    grid-template-columns: 1900px;
+}
+.first-page{
+    background-image: url(img/db018d06850741f4203b340071fe9a86.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.name_barber{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+.mustache{
+    font-size: 40px;
+    text-shadow: 4px 4px brown;
+    color: #FF7F50;
+}
+.under_name{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    font-size: 17px;
+}
+.center_page1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.tagline{
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+.under_tagline{
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 3px 3px black;
+}
+.online_entry{
+    width: 250px;
+    height: 50px;
+    border: 5px solid #FF7F50;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 2px 2px black;
+    transition: 300ms;
+}
+.social_media{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.social_media_el{
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 2px 2px black;
+    margin: 10px;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.social_media_el:hover{
+    color:#FF7F50;
+    text-shadow: 3px 3px black;
+}
+.online_entry:hover{
+    background-color: #FF7F50;
+    font-size: 17px;
+    text-shadow: 3px 3px black;
+    box-shadow: 6px 6px brown;
+    border-radius: 5px;
+}
+.second-page{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.price_menu_header{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 325px 125px 125px 125px;
+    grid-column-gap: 5px;
+    bottom: -180px;
+    font-family: 'Rubik Mono One', sans-serif;
+    align-items: center;
+}
+.price_button{
+    font-family: 'Rubik Mono One', sans-serif;
+    padding: auto;
+    width: 125px;
+    background-color: white;
+    height: 50px;
+    transition: 100ms;
+}
+.price_button:hover{
+    background-color: #FF7F50;
+    border: #FF7F50;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px black;
+}
+.price_elem{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.price_elem_name{
+    font-family: 'Unbounded', cursive;
+}
+.price_elem_price{
+    color: #FF7F50;
+    text-shadow: 2px 2px brown;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+.price_menu_1{
+    position: absolute;
+    grid-template-columns: 500px 100px 100px;
+    grid-template-rows: repeat(8, 50px);
+    height: 400px;
+    width: 700px;
+    background-color: white;
+    align-items: center ;
+    justify-content: center;
+}
+.price_menu_2{
+    position: absolute;
+    grid-template-columns: 500px 100px 100px;
+    grid-template-rows: repeat(5, 50px);
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    align-items: center ;
+    justify-content: center;
+}
+.price_menu_3{
+    position: absolute;
+    grid-template-columns: 500px 100px 100px;
+    grid-template-rows: repeat(6, 50px);
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    align-items: center ;
+    justify-content: center;
+}
+.price_info{
+    position: relative;
+    bottom: -280px;
+    left: -40px;
+    font-family: 'Unbounded', cursive;
+}
+.third-page{
+    background-color: #242424;
+    background-image: url(https://static.wixstatic.com/media/42135d_4caca1d8aa6c40bbbf8bb9315c4665e4~mv2.jpg/v1/fill/w_1920,h_800,al_c,q_85/42135d_4caca1d8aa6c40bbbf8bb9315c4665e4~mv2.jpg);
+}
+.third_main_text{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    font-size: 45px;
+    height: 100px;
+    width: 800px;
+}
+.third_page_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(2, 150px);
+    grid-gap: 20px;
+    position: relative;
+    left: 300px;
+    top: 150px;
+    height: 320px;
+    width: 100px;
+}
+.third_elem_number{
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: #FF7F50 7px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 8px 8px brown;
+}
+.third_elem{
+    color: white;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+}
+.fourth_page{
+    background-image: url(https://top-fon.com/uploads/posts/2022-09/1663578922_80-top-fon-com-p-serii-fon-dlya-lendinga-foto-127.jpg);
+}
+.employee_grid{
+    display: grid;
+    grid-template-columns: 250px 800px;
+    grid-template-rows: repeat(3, 250px);
+    justify-content: center;
+    margin-top: 100px;
+    grid-gap: 50px;
+    margin-top: 10px;
+}
+.employee_grid_elem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fourth_page_name{
+    width: 1900px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px grey;
+    margin-top: 20px;
+}
+.employee_grid_elem_image{
+    background-size: cover;
+    border-radius: 125px;
+}
+.employee_grid_elem_image:nth-child(1){
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1773878663508476277/5A8033869FBCBC0A3343F914A9CC826D1209FB5A/?imw=512&amp;imh=600&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true);
+}
+.employee_name{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    color: #FF7F50;
+    text-shadow: 2px 2px grey;
+    margin-left: 10px;
+}
+.employee_text{
+    font-family: 'Unbounded', cursive;
+}
+.online_button{
+    height: 50px;
+    width: 170px;
+    background-color: #FF7F50;
+    text-shadow: 1px 1px grey;
+    font-family: 'Rubik Mono One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 100ms;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.online_button:hover{
+    box-shadow: 8px 8px brown;
+    font-size: 17px;
+    text-shadow: 3px 3px grey;
+}
+.experience{
+    font-family: 'Unbounded', cursive;
+    color: #FF7F50;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 35px;
+}
+.fifth_page{
+    background-image: url(img/imgonline-com-ua-Black-White-5Zrycx6yqwi13\ \(1\).jpg);
+}
+.fifth_grid{
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 150px 75px repeat(2, 100px) 60px;
+    position: relative;
+    left: 250px;
+    top: 250px;
+    width: 400px;
+    grid-gap: 10px;
+}
+.fifth_elem_head{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #FF7F50;
+    text-shadow: 4px 4px brown;
+    font-size: 60px;
+    text-align: center;
+}
+.fifth_elem_under_head{
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 19px;
+}
+.fifth_form{
+    height: 60px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: #FF7F50 6px solid;
+    color: #FF7F50;
+    text-shadow: 2px 2px brown;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+input::placeholder{
+    color: #FF7F50;
+    text-shadow: 2px 2px brown;
+}
+.fifth_elem_confirm{
+    background-color: #FF7F50;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+}
+.fifth_elem_confirm:hover{
+    box-shadow: 10px 10px brown;
+    background-color: #f56834;
+    font-size: 35px;
+    text-shadow: 4px 4px black;
+}
+.under{
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.under_logo{
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 75px;
+}
+.under_sign{
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+.under_by{
+    margin-right: 75px;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}

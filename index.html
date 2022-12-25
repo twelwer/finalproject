@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+    </style>        
+</head>
+<body>
+    <script>
+        function Prices_On1(){
+            let price_on = document.getElementById("price_menu_1_1")
+            let price_button = document.getElementById("price_button1")
+            if(price_on.style.display == "none"){
+                price_on.style.display = "grid"
+            }
+            else{
+                price_on.style.display = "none"
+            }
+        }
+        function Prices_On2(){
+            let price_on = document.getElementById("price_menu_1_2")
+            let price_button = document.getElementById("price_button2")
+            if(price_on.style.display == "none"){
+                price_on.style.display = "grid"
+            }
+            else{
+                price_on.style.display = "none"
+            }
+        }
+        function Prices_On3(){
+            let price_on = document.getElementById("price_menu_1_3")
+            let price_button = document.getElementById("price_button3")
+            if(price_on.style.display == "none"){
+                price_on.style.display = "grid"
+            }
+            else{
+                price_on.style.display = "none"
+            }
+        }
+    </script>
+    <header>
+        <div class="name_barber">
+            <div class="mustache">MUSTACHE</div>
+            <div class="under_name">barbershop</div>
+        </div>
+        <div class="header_grid">
+            <a href="#page1" class="header_grid_elem">Главная</a>
+            <a href="#page2" class="header_grid_elem">Прайс</a>
+            <a href="#page3" class="header_grid_elem">Преимущества</a>
+            <a href="#page4" class="header_grid_elem">Команда</a>
+            <a href="#page5" class="header_grid_elem">Запись</a>
+        </div>
+    </header>
+    <div class="main-page" id="page1">
+        <div class="first-page">
+            <div class="center_page1">
+                <div class="tagline">СОЗДАЙ СЕБЕ НОВЫЙ ОБРАЗ</div>
+                <div class="under_tagline">ЗАПИШИТЕСЬ ОНЛАЙН</div>
+                <div class="online_entry"><a href="#page5" class="online_entery">ОНЛАЙН ЗАПИСЬ</a></div>
+                <div class="social_media">
+                    <div><a href="" class="social_media_el">VK</a></div> 
+                    <div><a href="" class="social_media_el">TG</a></div>
+                    <div><a href="" class="social_media_el">YOU</a></div>
+                    <div><a href="" class="social_media_el">INST</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="second-page" id="page2">
+            <div class="price_menu_header">
+                <div class="price_name">УСЛУГИ И ЦЕНЫ</div>
+                <button id="price_button1" onclick="Prices_On1()" class="price_button">СТРИЖКИ</button>
+                <button id="price_button2" onclick="Prices_On2()" class="price_button">БОРОДА И УСЫ</button>
+                <button id="price_button3" onclick="Prices_On3()" class="price_button">УХОД ДЛЯ ЛИЦА</button>
+            </div>
+            <div class="price_menu_1" id="price_menu_1_1" style="display: none;">
+                <div class="price_elem">СТРИЖКИ</div>
+                <div class="price_elem">БАРБЕР</div>
+                <div class="price_elem" style="text-align: center;">ТОП-БАРБЕР</div>
+                <div class="price_elem_name">Стрижка</div>
+                <div class="price_elem_price">1300</div>
+                <div class="price_elem_price">1600</div>
+                <div class="price_elem_name">Стрижка машинкой</div>
+                <div class="price_elem_price">700</div>
+                <div class="price_elem_price">900</div>
+                <div class="price_elem_name">Укладка</div>
+                <div class="price_elem_price">500</div>
+                <div class="price_elem_price">500</div>
+                <div class="price_elem_name">Королевское бритьё</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_price">1600</div>
+                <div class="price_elem_name">Студенческая стрижка</div>
+                <div class="price_elem_price">1000</div>
+                <div class="price_elem_price">1300</div>
+                <div class="price_elem_name">Окантовка висков и шеи</div>
+                <div class="price_elem_price">500</div>
+                <div class="price_elem_price">600</div>
+                <div class="price_elem_name">Детская стрижка</div>
+                <div class="price_elem_price">900</div>
+                <div class="price_elem_price">1200</div>
+            </div>
+            <div class="price_menu_3" id="price_menu_1_2" style="display: none;">
+                <div class="price_elem">БОРОДА И УСЫ</div>
+                <div class="price_elem">БАРБЕР</div>
+                <div class="price_elem" style="text-align: center;">ТОП-БАРБЕР</div>
+                <div class="price_elem_name">Моделирование бороды</div>
+                <div class="price_elem_price">1100</div>
+                <div class="price_elem_price">1300</div>
+                <div class="price_elem_name">Бритье лезвием</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_price">1600</div>
+                <div class="price_elem_name">Стрижка бороды и усов</div>
+                <div class="price_elem_price">700</div>
+                <div class="price_elem_price">900</div>
+                <div class="price_elem_name">Тонирование бороды</div>
+                <div class="price_elem_price">1000</div>
+                <div class="price_elem_price">1000</div>
+            </div>
+            <div class="price_menu_3" id="price_menu_1_3" style="display: none;">
+                <div class="price_elem">УХОД ДЛЯ ЛИЦА</div>
+                <div class="price_elem">БАРБЕР</div>
+                <div class="price_elem" style="text-align: center;">ТОП-БАРБЕР</div>
+                <div class="price_elem_name">Black mask</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_name">Acumen - уход за лицом</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_name">Volcano</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_price">1200</div>
+                <div class="price_elem_name">Комплекс по уходу за кожей</div>
+                <div class="price_elem_price">1800</div>
+                <div class="price_elem_price">1800</div>
+                <div class="price_elem_name">MGC Quick Spa</div>
+                <div class="price_elem_price">1000</div>
+                <div class="price_elem_price">1000</div>
+            </div>
+            <div class="price_info">Топ-барбер - мастер с постоянным повышением квалификации, <br> опытом больше 5 лет и высокой возвращаемостью клиентов.</div>
+        </div>
+        <div class="third-page" id="page3">
+            <div class="third_main_text">
+                ПРЕИМУЩЕСТВА НАШЕГО <div style="color: #FF7F50; width: 800px;">BARBERSHOP MUSTACHE</div>
+            </div>
+            <div class="third_page_grid">
+                <div class="third_elem_number">01</div>
+                <div class="third_elem_number">02</div>
+                <div class="third_elem_number">03</div>
+                <div class="third_elem">Персональный подход к каждому <br> посетителю, обеспечивающий максимальное качество <br> обслуживания и лучший результат.</div>
+                <div class="third_elem">Уютная домашняя обстановка <br> с легкой ноткой брутальности, способная отвлечь вас от повседневных забот.</div>
+                <div class="third_elem">Удобное расположение <br> в пешей доступности от метро <br> и от остановок других видов транспорта.</div>
+            </div>
+        </div>
+        <div class="fourth_page" id="page4">
+            <div class="fourth_page_name">Наша команда</div>
+            <div class="employee_grid">
+                <div class="employee_grid_elem_image"></div>
+                <div class="employee_grid_elem">
+                    <div class="employee_name">ДИМА</div>
+                    <div class="employee_text">Дима общительный и креативный мастер, умеет найти подход к каждому клиенту, особенно это ценят наши самые маленькие клиенты и их родители. Дима активно развивает свои навыки в стрижках, проходя различные мастер-классы и участвуя в барбер-фестивалях, так как считает, что предела совершенству нет. Относится к своей работе с максимальной самоотдачей и ответственностью.</div>
+                    <a href="#page5" class="online_button">ЗАПИСАТЬСЯ</a>
+                    <div class="experience"><b>6 лет</b><sup> общий стаж работы</sup></div>
+                </div>
+                <div class="employee_grid_elem_image" style="background-image: url(img/45543ddsdsds.png);"></div>
+                <div class="employee_grid_elem">
+                    <div class="employee_name">ВЛАД</div>
+                    <div class="employee_text">Влад творческий человек и всячески себя проявляет не только в барберинге, <br> но и в качестве модели, фотографа.Влад отличный собеседник, и легко поддержит любой разговор во время стрижки. Виртуозно обращается с ножницами и слегкостью выполнит стрижку любой сложности.</div>
+                    <a href="#page5" class="online_button">ЗАПИСАТЬСЯ</a>
+                    <div class="experience"><b>9 лет</b><sup> общий стаж работы</sup></div>
+                </div>
+                <div class="employee_grid_elem_image" style="background-image: url(img/bffgdfd4343.png); transform: scale(-1, 1); filter: grayscale(100%);"></div>
+                <div class="employee_grid_elem">
+                    <div class="employee_name">РАСУЛ</div>
+                    <div class="employee_text">Расул самый амбициозный барбер у нас. Его постоянные клиенты предпочитают ходить только к нему , дети его обожают, любит креативить в стрижках и всегда подскажет, какая стрижка подойдёт именно вам.</div>
+                    <a href="#page5" class="online_button">ЗАПИСАТЬСЯ</a>
+                    <div class="experience"><b>4 года</b><sup> общий стаж работы</sup></div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth_page" id="page5">
+            <div class="fifth_grid">
+                <div class="fifth_elem_head">ОСТАВЬТЕ ЗАЯВКУ</div>
+                <div class="fifth_elem_under_head">Заполните все поля и наш менеджер свяжется с вами, чтобы уточнить дату и время.</div>
+                <input type="text" class="fifth_form" placeholder="ваше имя" required>
+                <input type="text" class="fifth_form" placeholder="+7(___)-___-____" required>
+                <a href="#page5" class="fifth_elem_confirm">отправить</a>
+            </div>
+        </div>
+        <div class="under">
+            <div class="under_logo"><div class="mustache">MUSTACHE</div></div>
+            <div class="under_sign"> <a href="mailto:IvanovSA21@st.ithub.ru">IvanovSA21@st.ihtub.ru</a>  | +7 (495) 123 4567</div>
+            <div class="under_by">Разработка<br>©️twelwer</div>
+        </div>
+    </div>
+</body>
+</html>
