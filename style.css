@@ -129,7 +129,7 @@ a{
     display: grid;
     grid-template-columns: 325px 125px 125px 125px;
     grid-column-gap: 5px;
-    bottom: -180px;
+    bottom: -120px;
     font-family: 'Rubik Mono One', sans-serif;
     align-items: center;
 }
@@ -169,7 +169,7 @@ a{
     background-color: white;
     align-items: center ;
     justify-content: center;
-    top: 1150px;
+    top: 1100px;
 }
 .price_menu_2{
     position: absolute;
@@ -180,7 +180,7 @@ a{
     width: 700px;
     align-items: center ;
     justify-content: center;
-    top: 1150px;
+    top: 1100px;
 }
 .price_menu_3{
     position: absolute;
@@ -191,7 +191,7 @@ a{
     width: 700px;
     align-items: center ;
     justify-content: center;
-    top: 1150px;
+    top: 1100px;
 }
 .price_info{
     position: relative;
