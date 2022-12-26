@@ -169,7 +169,7 @@ a{
     background-color: white;
     align-items: center ;
     justify-content: center;
-    top: 20px;
+    top: 1150px;
 }
 .price_menu_2{
     position: absolute;
@@ -180,7 +180,7 @@ a{
     width: 700px;
     align-items: center ;
     justify-content: center;
-    top: 20px;
+    top: 1150px;
 }
 .price_menu_3{
     position: absolute;
@@ -191,7 +191,7 @@ a{
     width: 700px;
     align-items: center ;
     justify-content: center;
-    top: 20px;
+    top: 1150px;
 }
 .price_info{
     position: relative;
